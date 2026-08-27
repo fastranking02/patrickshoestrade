@@ -1,0 +1,342 @@
+<!doctype html>
+<html lang="en">
+
+
+<!-- Mirrored from patrickshoes.co.uk/contact-us by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 03 Nov 2025 10:38:10 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Patrick Shoes</title>
+
+    <link href="../cdn.jsdelivr.net/npm/bootstrap%405.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&amp;display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/style.css">
+  
+  <!--Favicon-->
+  <link rel="icon" type="image/x-icon" href="assets/img/patrick-shoes-favicon.ico">
+
+  <link rel="stylesheet" href="../cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="../cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet"
+    href="../cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+  <header>
+    <div class="top_header">
+      <div class="container">
+        <div class="row">
+          <div class="col-6"></div>
+          <div class="col-6"></div>
+        </div>
+      </div>
+    </div>
+    <div class="main_header">
+      <nav class="navbar navbar-expand-lg border-bottom shadow-sm">
+        <div class="container">
+          <a class="navbar-brand" href="index.html"><img src="assets/img/Patrick-Shoes-logo.png" alt="logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="brand.html">Brand</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="current-deals.html">Current Deals</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="how-to-order.html">How to Order</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="catalogue.html">Catalogue</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="contact-us.html">Contact Us</a>
+              </li>
+            </ul>
+            <a href="trade-login.html" class="header_cta_btn">Trade Login</a>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>    
+    <!-- Thank You Popup -->
+    <div id="thankyou-popup" class="col-xl-4 col-lg-4 col-md-6-col-sm-12 col-xs-12 popup">
+        
+        <div class="popup_content">
+            <div class="popup_status_icon">
+                <img src="assets/img/check_icon.jpg" width="110px" class="img-fluid" alt="cross icon">
+            </div>
+            <h3 class="popup-title success">Message Sent Successfully</h3>
+            <p class="popup_text">Thank you for reaching out! We’ve received your query and will get back by the end of the working day. We appreciate your patience.</p>
+            <span class="close_btn" onclick="closePopup('thankyou-popup')"><img src="assets/img/circle-cross-btn.svg" class="img-fluid" width="25px"></span>
+        </div>
+        
+    </div>
+
+    <!-- Sorry Popup -->
+    <div id="sorry-popup" class="col-xl-4 col-lg-4 col-md-6-col-sm-12 col-xs-12 popup">
+        
+        <div class="popup_content">
+            <div class="popup_status_icon">
+                <img src="assets/img/cross_icon.jpg" width="110px" class="img-fluid" alt="cross icon">
+            </div>
+            <h3 class="popup-title failed">Message Failed</h3>
+            <p class="popup_text">Sorry, there was an issue sending your message. Please try again later.</p>
+            <span class="close_btn" onclick="closePopup('sorry-popup')"><img src="assets/img/circle-cross-btn.svg" class="img-fluid" width="25px"></span>
+        </div>
+        
+    </div>
+    
+    <section class="page_banner align-content-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="page-banner-content text-center">
+                        <h1 class="hero-title theme-text-color">Contact Us</h1>
+                        <p class="hero-subtitle text-white"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact_us_page">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12">
+                    <div class="contact_detail">
+                        <h3>Contact Information</h3>
+                        <p class="f-p">Please be informed that this website is exclusively dedicated to <b class="text-black">trade and wholesale enquiries</b>. <span style="text-decoration: underline;">We do not accept any retail orders or messages</span>. Our services are tailored specifically for businesses and professionals in the footwear trade industry.</p>
+                        <p>Thank you for understanding and respecting our business operations.<br>If you have any trade-related enquiries, please feel free to contact us.</p>
+                        <ul class="contact_list d-none">
+                            <li>
+                                <span class="icon"><img src="assets/img/address-icon.webp" class="img-fluid"></span> <span>Patrick Shoes Limited<br>Unit 8-9, Eldon Way, Crick,<br>Northamptonshire, NN6 7SL</span>
+                            </li>
+                            <li>
+                                <span class="icon"><img src="assets/img/email_icon.webp" class="img-fluid"></span> <span>01327 703841</span>
+                            </li>
+                            <li>
+                                <span class="icon"><img src="assets/img/call_icon.webp" class="img-fluid"></span> <span>sales@patrickshoes.co.uk</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12">
+                <h3>Send Message</h3>
+                <div class="contact_detail_form">
+                    <form method="POST">
+                        <div class="row">
+                            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                                <input type="text" name="fullname" class="form-control" placeholder="Name" required>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                                <input type="text" name="business" class="form-control" placeholder="Business Name" required>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                                <input type="email" name="emailid" class="form-control" placeholder="Email ID" required>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                                <input type="text" name="number" class="form-control" placeholder="Phone" id="numericInput11dig" required>
+                                <!-- Error message placeholder -->
+                                                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                                <textarea name="message" rows="4" cols="4" class="form-control" placeholder="Message"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="from-btn">
+                            <button type="submit" name="submit" class="submit-btn submit w-100">Submit</button>
+                        </div>
+                    </form>
+
+
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="m-0 p-0">
+        <div class="container-fluid">
+            <div class="google_map_location">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d77990.02464139435!2d-1.2310973760218489!3d52.34887054338106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x48771617a7aab6ab%3A0x767684654d2199db!2s8-9%20Eldon%20Way%2C%20Northampton%20NN6%207SL!3m2!1d52.348911799999996!2d-1.1486463999999998!5e0!3m2!1sen!2suk!4v1725022947502!5m2!1sen!2suk" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+    
+    <script>
+        // 3 digit numeric value input validation 
+        document.getElementById('numericInput11dig').addEventListener('input', function (e) {
+            let value = e.target.value;
+        
+            // Remove any non-numeric characters
+            value = value.replace(/[^0-9]/g, '');
+        
+            // Limit to 3 digits
+            if (value.length > 11) {
+                value = value.slice(0, 11);
+            }
+        
+            // Update the input value
+            e.target.value = value;
+        });
+    </script>
+    
+    <script>
+        function showPopup(popupId) {
+            // Display the correct popup
+            var popup = document.getElementById(popupId);
+            popup.classList.add("show");
+        }
+
+        function closePopup(popupId) {
+            // Close the specified popup
+            var popup = document.getElementById(popupId);
+            popup.classList.remove("show");
+        }
+    </script>
+    
+    <script>
+        // Client-side validation
+        document.querySelector("form").addEventListener("submit", function(event) {
+            var phone = document.getElementById("numericInput11dig").value;
+            
+            if (phone.length !== 11 || isNaN(phone)) {
+                event.preventDefault();  // Prevent form submission
+                if (!document.querySelector("#phoneError")) {
+                    var errorElem = document.createElement("p");
+                    errorElem.id = "phoneError";
+                    errorElem.style.color = "red";
+                    errorElem.innerHTML = "Phone number must be exactly 11 digits.";
+                    document.getElementById("numericInput11dig").parentNode.appendChild(errorElem);
+                }
+            } else {
+                // Clear any existing error if the input is valid
+                var errorElem = document.getElementById("phoneError");
+                if (errorElem) {
+                    errorElem.remove();
+                }
+            }
+        });
+    </script>
+    
+
+    <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-8 col-lg-8 col-md-6 col-sm-12">
+          <div class="footer_content">
+            <div class="row">
+              <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12">
+                <a href="index.html" class="footer_logo">
+                  <img src="assets/img/Patrick-Shoes-logo.jpg" alt="logo" class="img-fluid w-100">
+                </a>
+              </div>
+              <div class="col-xl-7 col-lg-12 col-md-12 col-sm-12">
+                <div class="footer_brand_info">
+                  <p>
+                    Patrick Shoes Limited, established in the 1970s, is proud to celebrate half a
+                    century of excellence in the footwear industry. Based in Crick,
+                    Northamptonshire, the company has built a reputation for craftsmanship,
+                    durability, and innovative design over the decades.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+          <div class="contact_info">
+            <h5 class="footer_sub-title">Contact Info</h3>
+
+              <ul class="contact_info_list">
+                <li class="footer-link">
+                  <a href="tel:01327703841" class="phone-number link">
+                    <span class="icon">
+                      <img src="assets/img/call_icon.webp" alt="call icon" class="img-fluid">
+                    </span>
+                    <span class="text">01327 703841</span>
+                  </a>
+                </li>
+                <li class="footer-link">
+                  <a href="mailto:sales@patrickshoes.co.uk" class="email-id link">
+                    <span class="icon">
+                      <img src="assets/img/email_icon.webp" alt="email icon" class="img-fluid">
+                    </span>
+                    <span class="text">sales@patrickshoes.co.uk</span>
+                  </a>
+                </li>
+              </ul>
+          </div>
+        </div>
+        <div class="location">
+          <span class="icon">
+            Address:
+          </span>
+          <span class="text">Patrick Shoes Limited, Unit 8-9, Eldon Way, Crick, Northamptonshire, NN6 7SL</span>
+        </div>
+        <div class="footer_menu">
+          <span><a href="index.html" class="footer_link">Home</a></span>
+          <span><a href="brand.html" class="footer_link">Brand</a></span>
+           <span><a href="current-deals.html" class="footer_link">Current Deals</a></span> 
+          <span><a href="how-to-order.html" class="footer_link">How to Order</a></span>
+          <span><a href="catalogue.html" class="footer_link">Catalogue</a></span>
+          <span><a href="contact-us.html" class="footer_link">Contact Us</a></span>
+          <span><a href="trade-login.html" class="footer_link">Trade Login</a></span>
+          <span class="for-mob"><a href="terms-and-conditions.html" class="footer_link">Terms & Conditions</a></span>
+          <span class="for-mob"><a href="privacy-policy.html" class="footer_link">Privacy Policy</a></span>
+      </div>
+        <p class="text-center for-desk footer_menu span"><span><a class="footer_link" href="terms-and-conditions.html">Terms & Conditions</a></span><span><a class="footer_link" href="privacy-policy.html">Privacy policy</a></span></p>
+        <div class="footer_copyright">
+          <p>copyright &#169; 2025 All right reserved by Patrick Shoes Ltd. | Powered by <a
+              href="https://fastranking.co.uk/" class="powered_by" target="_blank">Fast Ranking</a></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../cdn.jsdelivr.net/npm/bootstrap%405.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script src="../cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="../cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+
+<!-- Mirrored from patrickshoes.co.uk/contact-us by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 03 Nov 2025 10:38:11 GMT -->
+</html>
